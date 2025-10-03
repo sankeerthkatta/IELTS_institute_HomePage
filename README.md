@@ -1,20 +1,34 @@
-<<<<<<< HEAD
-# React + Vite
+# IELTS Institute Home Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Setup Instructions
 
-Currently, two official plugins are available:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sankeerthkatta/IELTS_institute_HomePage.git
+   cd IELTS_institute_HomePage
+   ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## React Compiler
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-## Expanding the ESLint configuration
+## Design Choices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# IELTS_institute_HomePage
->>>>>>> 51c7af00d3cd7416d5784b7dc8c27ee1fce594b0
+- **Responsive Layout:** All components use Tailwind CSS utility classes for a modern, mobile-friendly UI.
+- **Consistent Branding:** The primary blue color (`rgb(11,66,142)`) is used throughout for buttons, highlights, and icons.
+- **React Icons:** Icons are imported from `react-icons` for visual clarity and consistency in navigation, features, and footer.
+- **Component Structure:** The UI is split into clear sections—Navbar, Hero, Features, Testimonials, and Footer—for maintainability and scalability.
+- **Accessibility:** Buttons and navigation are keyboard accessible, and images include descriptive `alt` text.
+- **Mobile Navigation:** The Navbar includes a hamburger menu for easy access on smaller screens.
+
